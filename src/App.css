@@ -3,12 +3,11 @@
 }
 
 body{
-  /* background-color: blueviolet; */
+  background-color:ghostwhite; 
 }
 header{
   background-color:hotpink;
   padding: 5px;
-  border-bottom: 2px solid brown;
   color:lightblue;
   text-align: center;
 }
@@ -17,16 +16,31 @@ header{
   height: 200px;
   margin: 50px auto;
 }
+.image-area div {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-size: cover;
+  background-repeat: no-repeat
+}
 
+span.addIcon {
+  text-align: center;
+  position: absolute;
+  top: 25px;
+  right: 40px;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  transition: .3s;
+  border-radius: 50%;
+  line-height: 50px;
+}
 
-
-
-
-
-
-
-
-
+span.addIcon:hover {
+  background-color: aliceblue;
+  border-radius: 50%;
+}
 
 h6.card-subtitle.text-muted {
   display: flex;

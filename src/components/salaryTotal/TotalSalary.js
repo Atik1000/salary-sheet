@@ -10,7 +10,7 @@ const TotalSalary = ({friends, totalFriends}) => {
       <div className="card-body p-5">
         <h2><i className="fas fa-users"></i></h2>
         <h1 className="text-muted">{totalFriends.length}</h1>
-        <h5 className="card-title">Friends Total Salary</h5>
+        <h5 className="card-title">Employee salary</h5>
         <h6 className="card-subtitle mb-2 text-muted">${totalSalary}</h6>
         <span><i className="far fa-check-circle"></i></span>
       </div>

@@ -28,11 +28,9 @@ function App() {
    if(!isExist) {
       const friends = [...friendsTotalSalary, friend]
       setFriendsTotalSalary(friends)
-   } else {
-    alert('Already Add!')
-   }
+   } 
   
-  }
+  
 
   return (
     <div>

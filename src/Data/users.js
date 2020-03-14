@@ -4,7 +4,7 @@ const users = [
       name: "Atik foysal",
       username: "Admin",
       yearlySalary:4858552,
-      img:'https://www.facebook.com/profile.php?id=100026422180524',
+      img:'https://images.pexels.com/photos/736716/pexels-photo-736716.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       email: "cm.dpi15@gmail.com",
       address: {
         street: "Kulas Light",
@@ -30,7 +30,7 @@ const users = [
       name: "Ervin Howell",
       username: "Antonette",
       yearlySalary:485852,
-      img:'https://www.facebook.com/photo.php?fbid=877582052689596&set=a.131175607330248&type=3&theater',
+      img:'https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       email: "Shanna@melissa.tv",
       address: {
         street: "Victor Plains",
