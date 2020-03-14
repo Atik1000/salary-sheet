@@ -2,37 +2,49 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  /* background-color: blueviolet; */
+}
+header{
+  background-color:hotpink;
+  padding: 5px;
+  border-bottom: 2px solid brown;
+  color:lightblue;
+  text-align: center;
+}
+.image-area {
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+
+
+
+
+
+
+
+h6.card-subtitle.text-muted {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+p.card-text {
+  margin-bottom: 5px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+i.fas.fa-phone-alt {
+  font-size: 15px !important;
+  padding-right: 6px;
+  font-weight: 600;
+}
+.totalSalary {
+  max-width: 320px;
+  right: 0;
+  margin-top: 20px;
+  position: fixed;
 }
